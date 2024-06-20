@@ -51,6 +51,9 @@
   footer {
     height: 40vh;
   }
+  .section__pic-container1 {
+    margin-left:3rem;
+  }
   #profile {
     height: 83vh;
     margin-bottom: 2rem;
@@ -112,7 +115,7 @@
     text-align: justify;
   }
   .hr.vertical {
-    height:60%;
+    height:30%;
     width:0;
     border:1px solid black;
 }
