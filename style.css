@@ -522,12 +522,6 @@ section {
     transition: 0.3s ease-in-out;
 }
 
-.hr.vertical {
-    height:100%;
-    width:0;
-    border:1px solid black;
-}
-
 
 /* PROJECTS SECTION */
 
@@ -550,6 +544,7 @@ section {
 .project-img {
     width: 100%;
     height: 100%;
+    border: 1px solid black;
 }
 
 .project-title {

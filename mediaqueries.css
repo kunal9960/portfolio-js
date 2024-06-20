@@ -52,7 +52,7 @@
     height: 40vh;
   }
   .section__pic-container1 {
-    margin-left:3rem;
+    margin-left:1.5rem;
   }
   #profile {
     height: 83vh;
@@ -114,9 +114,12 @@
   .text-container {
     text-align: justify;
   }
-  .hr.vertical {
-    height:30%;
-    width:0;
-    border:1px solid black;
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 5px solid #FFBF00;
+    height: 20%;
+    z-index: -1;
 }
 }
