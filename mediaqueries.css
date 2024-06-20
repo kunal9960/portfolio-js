@@ -111,4 +111,9 @@
   .text-container {
     text-align: justify;
   }
+  .hr.vertical {
+    height:60%;
+    width:0;
+    border:1px solid black;
+}
 }
