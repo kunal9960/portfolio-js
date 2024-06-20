@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Portfolio</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container1">
+            <img src="./assets/profile-pic.png" alt="Kunal profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Kunal Dalvi</h1>
+            <p class="section__text__p2">Python Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <a href="https://www.linkedin.com/in/kunal-dalvi-0b273b2b4/" target="_blank">
+                    <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-linkedin-social-media-justicon-lineal-color-justicon.png" alt="My LinkedIn profile" class="icon"/>
+                </a>
+                <a href="https://github.com/kunal9960" target="_blank">
+                    <img src="https://raw.githubusercontent.com/kunal9960/kunal9960/main/github.png" alt="My Github profile" class="icon"/>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="https://64.media.tumblr.com/c70e8fcdf61a132a873f99db163896a2/tumblr_o48ggtdpJA1sfmahro1_400.gifv"
+                     alt="Profile picture"
+                     class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="https://icon-icons.com/icons2/2699/PNG/512/gitbook_logo_icon_168173.png"
+                             alt="Experience icon"
+                             class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/>Python Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="https://camo.githubusercontent.com/55315fa9a2951bb23df8b915cf23a2631b5633b1926aa0b3dedd6475e7821726/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333731363637332f323234393838312f65653164356236342d396438392d313165332d383066302d3931363738333935616533652e706e67"
+                             alt="Education icon"
+                             class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Sc. Computer Science Degree (A+)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Hi, I'm Kunal. A passionate Python developer with a keen interest in Data analysis, based in Pune, Maharashtra
+                        <img src="./assets/location.png"
+                             alt="Experience icon"
+                             class="icon1">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+             alt="Arrow icon"
+             class="icon arrow"
+             onclick="location.href='./#experience'"/>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers"></div>
+        </div>
+        <div class="skills">
+            <p><b>Tech Stack </b></p>
+            <div class="logos">
+                <ul>
+                    <li><img src="https://skillicons.dev/icons?i=py,cpp" alt="skill-icon"></li>
+                    <li><img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon"></li>
+                    <li><img src="https://skillicons.dev/icons?i=flask,django" alt="skill-icon"></li>
+                    <li><img src="https://skillicons.dev/icons?i=mysql,mongodb" alt="skill-icon"></li>
+                    <li><img src="https://skillicons.dev/icons?i=git,tensorflow" alt="skill-icon"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="work">
+            <p class="title2"><b>Work Experience</b></p>
+            <div class="vl"></div>
+            <div class="work-experience-card">
+                <div class="work-experience-content">
+                    <div class="company-logo">
+                        <img src="https://media.licdn.com/dms/image/D4D0BAQFsKCE82AoD_Q/company-logo_200_200/0/1689287580187?e=1726704000&v=beta&t=hislUiEJBB1RyrWZ5yM5RNlf-iAAJ0jH_fDGVdbqQUE" alt="Company Logo">
+                    </div>
+                    <div class="company-details">
+                        <h3 class="company-name">Excelerate</h3>
+                        <p class="position">Data Visualisation Associate</p>
+                        <p class="description">📅 July '24 - August '24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-experience-card">
+                <div class="work-experience-content">
+                    <div class="company-logo">
+                        <img src="https://media.licdn.com/dms/image/D560BAQE9he8k8_39Zg/company-logo_200_200/0/1704273159012?e=1726704000&v=beta&t=xXmvWpasP3Ybhra7pyHwzE31T2xfis-XSQAfu2PjXwg" alt="Company Logo">
+                    </div>
+                    <div class="company-details">
+                        <h3 class="company-name">ShadowFox</h3>
+                        <p class="position">Python Developer Intern</p>
+                        <p class="description">📅 April '24 - May '24</p>
+                    </div>
+                </div>
+            </div>
+            <div class="work-experience-card">
+                <div class="work-experience-content">
+                    <div class="company-logo">
+                        <img src="https://media.licdn.com/dms/image/D4D0BAQFTpfRDuChAOQ/company-logo_200_200/0/1680453080726?e=1726704000&v=beta&t=ewENOocepzQEVKu73tqheb4II_XMhS_qDWp87vu9vzk" alt="Company Logo">
+                    </div>
+                    <div class="company-details">
+                        <h3 class="company-name">Prodigy InfoTech</h3>
+                        <p class="position">Data Science Intern</p>
+                        <p class="description">📅 March '24 - April '24</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow2" onclick="location.href='./#projects'"/>
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://raw.githubusercontent.com/kunal9960/stock-dashboard/master/Dashboard.png"
+                             alt="Project 1"
+                             class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Stock Dashboard</h2>
+                    <p>A comprehensive stock dashboard using Python and Streamlit which provides real-time data</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='facebook.com'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='facebook.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://raw.githubusercontent.com/kunal9960/stock-dashboard/master/Dashboard.png"
+                             alt="Todo Web App"
+                             class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Stock Dashboard</h2>
+                    <p>A comprehensive stock dashboard using Python and Streamlit which provides real-time data.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='facebook.com'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='facebook.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="https://raw.githubusercontent.com/kunal9960/stock-dashboard/master/Dashboard.png"
+                             alt="Sales Dashboard"
+                             class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Stock Dashboard</h2>
+                    <p>A comprehensive stock dashboard using Python and Streamlit which provides real-time data.</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='facebook.com'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='facebook.com'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+             alt="Arrow icon"
+             class="icon arrow1"
+             onclick="location.href='./#contact'"/>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-gmail-social-media-justicon-lineal-color-justicon.png"
+                     alt="Email icon"
+                class="icon contact-icon">
+                <p><a href="mailto:kunald9960@gmail.com">kunald9960@gmail.com</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-linkedin-social-media-justicon-lineal-color-justicon.png"
+                     alt="LinkedIn icon"
+                class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/kunal-dalvi-0b273b2b4/">LinkedIn</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/344/external-twitter-social-media-justicon-lineal-color-justicon.png"
+                     alt="Twitter icon"
+                class="icon contact-icon">
+                <p><a href="https://x.com/kunalfr_">Twitter</a> </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="https://raw.githubusercontent.com/kunal9960/kunal9960/main/github.png"
+                     alt="Github icon"
+                class="icon contact-icon">
+                <p><a href="https://github.com/kunal9960">Github</a> </p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Kunal Dalvi. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
