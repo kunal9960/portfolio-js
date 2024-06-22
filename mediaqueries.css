@@ -114,6 +114,9 @@
   .text-container {
     text-align: justify;
   }
+  #about p.section__text__p1 {
+    margin-top: 2rem;
+  }
   .vl {
     position: absolute;
     left: 50%;

@@ -314,6 +314,11 @@ section {
 
 }
 
+#about p.section__text__p1 {
+    margin-top: -2rem;
+
+}
+
 #about {
     position: relative;
 }
