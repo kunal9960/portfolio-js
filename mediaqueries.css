@@ -67,7 +67,13 @@
   .section__text__p1 {
     margin-top: 2rem;
   }
-  .arrow {
+  .arrow1 {
+    display: none;
+  }
+  .arrow1 {
+    display: none;
+  }
+  .arrow2 {
     display: none;
   }
   article {
