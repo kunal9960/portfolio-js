@@ -130,12 +130,4 @@
   #profile p.section__text__p1 {
     margin-top: 3rem;
   }
-  .vl {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    border-left: 5px solid rgb(163, 163, 163);
-    height: 30%;
-    z-index: -1;
-}
 }
