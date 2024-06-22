@@ -119,6 +119,10 @@
   }
   .title {
     font-size: 2rem;
+
+  #about .title {
+    margin-bottom: 3rem;
+  }
   }
   .text-container {
     text-align: justify;
