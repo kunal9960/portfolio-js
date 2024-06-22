@@ -67,6 +67,9 @@
   .section__text__p1 {
     margin-top: 2rem;
   }
+  .arrow {
+    display: none;
+  }
   article {
     font-size: 1rem;
   }
@@ -114,8 +117,8 @@
   .text-container {
     text-align: justify;
   }
-  #about p.section__text__p1 {
-    margin-top: 2rem;
+  #profile p.section__text__p1 {
+    margin-top: 1rem;
   }
   .vl {
     position: absolute;
