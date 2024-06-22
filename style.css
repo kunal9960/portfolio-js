@@ -315,7 +315,7 @@ section {
 }
 
 #about p.section__text__p1 {
-    margin-top: -2rem;
+    margin-top: 0rem;
 
 }
 
@@ -358,7 +358,7 @@ section {
 .arrow1 {
     position: absolute;
     right: -5rem;
-    bottom: -2rem;
+    bottom: -3rem;
     cursor: pointer;
 }
 
@@ -377,6 +377,7 @@ section {
     border: rgb(53, 53, 53) 0.2rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    cursor: default;
 }
 
 .section-container {
@@ -574,6 +575,10 @@ section {
 
 /* CONTACT PAGE */
 
+#contact .section__text__p1{
+    margin-top: 3rem;
+}
+
 #contact {
     display: flex;
     justify-content: center;
@@ -600,6 +605,12 @@ section {
     margin: 1rem;
 }
 
+.contact .h1 {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: #FFBF00;
+}
+
 .contact-info-container {
     font-size: larger;
 }
@@ -607,7 +618,6 @@ section {
 .contact-icon {
     cursor: default;
 }
-
 
 /* FOOTER SECTION */
 
