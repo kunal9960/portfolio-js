@@ -232,12 +232,14 @@ section {
     margin-top: 1.7rem;
     gap: 1rem;
 }
+
 #socials-container img {
     width: 40px;
     height: 40px;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
+
 #socials-container img:hover {
     transform: scale(1.2);
 }
@@ -432,7 +434,7 @@ section {
 /* EXPERIENCE SECTION */
 
 .scroller {
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .scroller__inner {
@@ -444,14 +446,9 @@ section {
 
 .scroller[data-animated="true"] {
   overflow: hidden;
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent,
-    white 10%,
-    white 80%,
-    transparent
-  );
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  /* Removed the gradient mask to eliminate the fade effect */
+  -webkit-mask: linear-gradient(90deg, white, white);
+  mask: linear-gradient(90deg, white, white);
 }
 
 .scroller[data-animated="true"] .scroller__inner {
@@ -560,7 +557,6 @@ section {
 		transform: translateX(0px);
 	}
 }
-
 
 .work-experience-card {
     animation: appear2 ease-in-out forwards;
@@ -722,6 +718,7 @@ section {
 .contact-icon {
     cursor: default;
 }
+
 
 /* FOOTER SECTION */
 
