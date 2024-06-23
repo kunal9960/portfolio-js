@@ -127,9 +127,9 @@
     text-align: justify;
   }
   #profile p.section__text__p1 {
-    margin-top: 3rem;
+    margin-top: 2.2rem;
   }
   .scroller {
-  max-width: 200px;
+  max-width: 300px;
   }
 }
