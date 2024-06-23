@@ -432,7 +432,7 @@ section {
 /* EXPERIENCE SECTION */
 
 .scroller {
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .scroller__inner {
@@ -447,7 +447,7 @@ section {
   -webkit-mask: linear-gradient(
     90deg,
     transparent,
-    white 20%,
+    white 10%,
     white 80%,
     transparent
   );

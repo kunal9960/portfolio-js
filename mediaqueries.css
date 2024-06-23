@@ -130,4 +130,7 @@
   #profile p.section__text__p1 {
     margin-top: 3rem;
   }
+  .scroller {
+  max-width: 200px;
+}
 }
