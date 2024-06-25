@@ -153,9 +153,18 @@
   }
   .contact-info-upper-container {
     flex-direction: column; /* Stack items vertically on smaller screens */
-    padding: 2rem;
-    gap: 1rem;
+    padding: 1rem;
     align-items: center;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
+    height: 1000rem;
+    width: 100rem;
+  }
+  #contact .contact-info-upper-container p {
+    font-size: 10px;
+  }
+  .contact-info-container .contact-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: -0.8rem;
   }
 }
