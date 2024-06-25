@@ -864,7 +864,7 @@ nav.project1 a.active {
 }
 
 #contact.triggered .contact-info-upper-container {
-    animation: expandContacts 1.2s forwards;
+    animation: expandContacts 1.3s forwards;
 }
 
 @keyframes expandContacts {

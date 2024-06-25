@@ -134,7 +134,7 @@
   max-width: 360px;
   }
   nav.project1 a {
-    font-size: 15px;
+    font-size: 14px;
   }
   #projects .details-container {
     width: 19rem;
@@ -152,6 +152,10 @@
       height: auto;
   }
   .contact-info-upper-container {
-      height: auto;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 10rem;
   }
 }
