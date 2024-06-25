@@ -65,7 +65,7 @@
     margin-top: 3rem;
   }
   .section__text__p1 {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .arrow1 {
     display: none;
@@ -89,7 +89,7 @@
     flex-wrap: wrap;
   }
   .contact-info-upper-container {
-    gap: 1.5rem;
+    gap: 2rem;
   }
   .contact-info-container {
     margin: 0;
@@ -131,5 +131,20 @@
   }
   .scroller {
   max-width: 360px;
+  }
+  .footer {
+  margin-bottom: -4rem;
+  }
+  nav.project1 a {
+    font-size: 12px;
+  }
+  #projects .details-container {
+    width: 17rem;
+  }
+  nav.project1 {
+    margin-bottom: -2rem;
+  }
+  #contact p.section__text__p1{
+    margin-top: 2rem;
   }
 }
