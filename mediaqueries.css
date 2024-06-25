@@ -90,6 +90,7 @@
   }
   .contact-info-upper-container {
     gap: 2rem;
+    height: 200rem;
   }
   .contact-info-container {
     margin: 0;
@@ -132,9 +133,6 @@
   .scroller {
   max-width: 360px;
   }
-  .footer {
-  margin-bottom: -4rem;
-  }
   nav.project1 a {
     font-size: 14px;
   }
@@ -147,7 +145,13 @@
   #contact p.section__text__p1{
     margin-top: 2rem;
   }
-  #contact .gif-icon{
-    margin-left: -10rem;
+  .gif-icon {
+      display: block; /* Ensures the image behaves as a block element */
+      margin: 0 auto; /* Centers the image horizontally */
+      max-width: 100%; /* Ensures the image doesn't exceed its original size */
+      height: auto;
+  }
+  .contact-info-upper-container {
+      height: auto;
   }
 }
