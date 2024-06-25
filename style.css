@@ -799,9 +799,9 @@ nav.project1 a.active {
 /* CONTACT PAGE */
 
 .gif-icon {
-    width: 120px;
-    height: 120px;
-    margin-left: 25.9rem;
+    width: 250px;
+    height: 130px;
+    margin-left: 21.6rem;
 }
 
 #contact .section__text__p1{
@@ -852,6 +852,10 @@ nav.project1 a.active {
 }
 
 .contact-icon {
+    cursor: default;
+}
+
+.contact-icon1 {
     cursor: default;
 }
 
