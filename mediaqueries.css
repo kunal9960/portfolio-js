@@ -127,7 +127,7 @@
     text-align: justify;
   }
   #profile p.section__text__p1 {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .scroller {
   max-width: 360px;
@@ -136,15 +136,18 @@
   margin-bottom: -4rem;
   }
   nav.project1 a {
-    font-size: 12px;
+    font-size: 14px;
   }
   #projects .details-container {
-    width: 17rem;
+    width: 19rem;
   }
   nav.project1 {
     margin-bottom: -2rem;
   }
   #contact p.section__text__p1{
     margin-top: 2rem;
+  }
+  #contact .gif-icon{
+    margin-left: -10rem;
   }
 }
