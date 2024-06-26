@@ -184,4 +184,12 @@
         width: 95%;
         max-width: none;
   }
+  .menu-links a {
+    position: relative;
+    font-size: 12px;
+  }
+  .menu-links {
+    z-index: 10;
+    background: #eee;
+  }
 }
