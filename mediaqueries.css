@@ -64,6 +64,9 @@
   #experience{
     margin-top: 3rem;
   }
+  .experience-details-container {
+    margin-bottom: -1rem;
+  }
   .section__text__p1 {
     margin-top: 1rem;
   }
@@ -150,6 +153,7 @@
       margin: 0 auto; /* Centers the image horizontally */
       max-width: 100%; /* Ensures the image doesn't exceed its original size */
       height: auto;
+      margin-top: 1rem;
   }
   .contact-info-upper-container {
     flex-direction: column; /* Stack items vertically on smaller screens */
@@ -166,6 +170,7 @@
     margin-right: -0.8rem;
     margin-left: 0.5rem;
   }
+
   #contact {
     margin-top: 8rem;
   }
@@ -174,5 +179,9 @@
     height: 12px;
     margin-right: -0.8rem;
     margin-left: -0.9rem;
+  }
+  .work-experience-card {
+        width: 95%;
+        max-width: none;
   }
 }
