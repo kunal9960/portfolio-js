@@ -186,6 +186,7 @@ section {
     }
 }
 
+
 /* PROFILE SECTION */
 
 #profile {
@@ -287,6 +288,7 @@ section {
   100% { transform: rotate( 0deg ) }
 }
 
+
 /* ICONS */
 
 .icon {
@@ -333,7 +335,7 @@ section {
 }
 
 .btn-color-2 {
-    background: none;
+    background: rgb(250, 250, 250);
 }
 
 .btn-color-2:hover {
@@ -346,6 +348,7 @@ section {
 
 
 /* ABOUT SECTION */
+
 @keyframes appear {
     from{
         opacity: 0;
@@ -462,7 +465,6 @@ section {
 
 .scroller[data-animated="true"] {
   overflow: hidden;
-  /* Removed the gradient mask to eliminate the fade effect */
   -webkit-mask: linear-gradient(90deg, white, white);
   mask: linear-gradient(90deg, white, white);
 }
@@ -595,7 +597,6 @@ section {
     display: flex;
     flex-direction: row;
     width: 40%;
-
     max-width: 500px;
     border: 2.5px solid rgb(163, 163, 163);
     border-radius: 20px;
