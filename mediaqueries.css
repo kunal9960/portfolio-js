@@ -11,6 +11,18 @@
   }
 }
 
+@media screen and (max-width: 2000px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 3rem;
+  }
+  #experience,
+  #contact,
+  #projects {
+    height: fit-content;
+    margin-bottom: 5rem;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
