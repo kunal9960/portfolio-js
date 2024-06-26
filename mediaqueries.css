@@ -162,7 +162,7 @@
     margin-bottom: 8rem;
   }
   #contact .contact-info-upper-container p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .contact-icon {
     width: 14px;
@@ -178,7 +178,7 @@
     width: 12px;
     height: 12px;
     margin-right: -0.8rem;
-    margin-left: -0.9rem;
+    margin-left: -0.3rem;
   }
   .work-experience-card {
         width: 95%;
@@ -191,5 +191,8 @@
   .menu-links {
     z-index: 10;
     background: #eee;
+  }
+  .twitter1 {
+    display: none;
   }
 }
