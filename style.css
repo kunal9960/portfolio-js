@@ -815,7 +815,7 @@ nav.project1 a.active {
 .gif-icon {
     width: 250px;
     height: 130px;
-    margin-left: 21.6rem;
+    margin: 0rem auto;
 }
 
 #contact .section__text__p1{

@@ -208,4 +208,70 @@
   .twitter1 {
     display: none;
   }
+  .section__pic-container1 img {
+    margin: 0rem auto;
+ }
+  #projects{
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (width: 360px) and (height: 740px) {
+  .section__pic-container1 img {
+    width: 16rem;
+    height: 16rem;
+    margin: 0rem auto;
+ }
+  .section__text {
+    align-self: center;
+    text-align: center;
+    margin-top: -2rem;
+ }
+  #contact .contact-info-upper-container p {
+    font-size: 10.5px;
+  }
+  #projects{
+    margin-bottom: 13rem;
+  }
+  nav.project1 a {
+    font-size: 11px;
+  }
+  .work-experience-card h3{
+    font-size: 1.1rem;
+  }
+  .company-logo img {
+    margin-top: 0.3rem;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+ }
+}
+
+@media screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
+  #about {
+    margin-top: 8rem;
+ }
+  .section__pic-container1 img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0rem auto;
+  }
+
+  .section__text {
+    align-self: center;
+    text-align: center;
+    margin-top: -5rem;
+ }
+  .work-experience-card h3{
+    font-size: 1.1rem;
+  }
+  nav.project1 a {
+    font-size: 12px;
+  }
+  #contact .contact-info-upper-container p {
+    font-size: 11px;
+  }
+  #projects{
+    margin-bottom: 13rem;
+  }
 }
