@@ -11,12 +11,11 @@
   }
   .gif-icon {
     display: block;
-    margin: 1rem auto; /* Center horizontally */
+    margin: 0rem auto; /* Center horizontally */
     max-width: 100%;
     height: auto;
   }
 }
-
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -54,9 +53,16 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
+
   footer {
-    height: 28vh;
+    height: 20vh;
+  }
+
+  footer {
+    margin-top: 0rem;
+  }
+  #contact {
+    height: 45vh;
   }
   .section__pic-container1 {
     margin-left:1.3rem;
