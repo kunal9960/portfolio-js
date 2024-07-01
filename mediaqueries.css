@@ -20,6 +20,9 @@
   .scroller {
     max-width: 750px;
   }
+  .work-experience-card {
+    width: 300px;
+  }
 }
 
 
