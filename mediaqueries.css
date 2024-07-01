@@ -6,14 +6,18 @@
       margin-top: -3rem;
   }
   #experience {
+      width: 900px;
       margin-top: -6rem;
   }
   #contact {
+      width: 900px;
       margin-top: -7.5rem;
   }
-  .contact-info-upper-container {
-    width: 500px;
+
+  #projects {
+      width: 1000px;
   }
+
 
 
   .arrow1 {
