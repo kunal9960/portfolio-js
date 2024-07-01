@@ -7,15 +7,18 @@
   }
   #experience {
       width: 900px;
+      margin: 0 auto;
       margin-top: -6rem;
   }
   #contact {
       width: 900px;
+      margin: 0 auto;
       margin-top: -7.5rem;
   }
 
   #projects {
       width: 1000px;
+      margin: 0 auto;
   }
 
 
