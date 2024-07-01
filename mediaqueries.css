@@ -2,13 +2,15 @@
   #about {
       width: 900px;
       margin: 0 auto;
+      height: 800px;
   }
   .arrow1 {
     margin-top: -17rem;
  }
   .arrow {
-    margin-top: -40rem;
+    margin-bottom: 40rem;
  }
+
 }
 
 
