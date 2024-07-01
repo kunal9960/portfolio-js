@@ -10,7 +10,14 @@
   .arrow {
     margin-bottom: 8rem;
  }
+  .gif-icon {
+    display: block;
+    margin: 0rem auto; /* Center horizontally */
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
 
+  }
 }
 
 
