@@ -21,8 +21,6 @@
       margin: 0 auto;
   }
 
-
-
   .arrow1 {
     margin-top: -17rem;
  }
@@ -125,7 +123,7 @@
     margin-top: 0rem;
   }
   #experience{
-    margin-top: 3rem;
+    margin-top: 4.2rem;
   }
   .experience-details-container {
     margin-bottom: -1rem;
@@ -263,6 +261,7 @@
  }
   #projects{
     margin-bottom: 10rem;
+    margin-top: 4rem;
   }
 }
 
