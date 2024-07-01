@@ -1,15 +1,7 @@
 @media screen and (min-width: 1300px) {
   .details-container {
-    padding: 0.8rem;
-    flex: 1;
-    background: white;
-    border-radius: 10rem;
-    border: rgb(53, 53, 53) 0.2rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
-    cursor: default;
+    width: 50%; /* Adjust the width percentage as needed */
 }
-
 }
 
 
@@ -31,6 +23,7 @@
     max-width: 100%;
     height: auto;
   }
+
 }
 
 
