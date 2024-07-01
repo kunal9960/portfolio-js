@@ -16,7 +16,9 @@
     width: 350px;
     height: 300px;
     max-width: 100%;
-
+  }
+  .scroller {
+    max-width: 900px;
   }
 }
 
