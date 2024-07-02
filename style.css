@@ -897,6 +897,7 @@ nav.project1 a.active {
     gap: 0.2rem;
     overflow: hidden;
     width: 0;
+    height: 30px
 }
 
 #contact.triggered .contact-info-upper-container {
@@ -923,4 +924,13 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+.visits {
+    width:200px;
+
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    align-items: center;
 }
