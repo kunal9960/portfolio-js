@@ -1,12 +1,15 @@
 @media screen and (min-width: 1300px) {
   #about {
-      width: 900px;
+      width: 950px;
       margin: 0 auto;
       height: 800px;
       margin-top: -3rem;
   }
+  #about .title {
+      margin-bottom: -3rem;
+  }
   #experience {
-      width: 900px;
+      width: 950px;
       margin: 0 auto;
       margin-top: -6rem;
   }
