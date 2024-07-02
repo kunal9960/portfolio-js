@@ -9,7 +9,7 @@
     padding: 0;
 }
 
-body{
+body {
     background: #eee;
     font-family: "Poppins", sans-serif;
     animation: fade-in 0.6s ease-in-out forwards;
@@ -52,7 +52,7 @@ nav {
     height: 17vh;
 }
 
-.nav-links{
+.nav-links {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
@@ -121,9 +121,8 @@ a:hover {
 .menu-links.open {
     border: 1.5px solid rgb(163, 163, 163);
     border-radius: 10px;
-
-    max-height: 200px; /* Adjust the max-height as per your menu content */
-    padding: 10px; /* Optional padding to make the menu look nicer */
+    max-height: 200px;
+    padding: 10px;
 }
 
 .menu-links a {
@@ -431,7 +430,6 @@ section {
     transition: all 0.3s ease;
 }
 
-/* Using pseudo-element for hover effect */
 .arrow:hover {
     content: url('./assets/arrow.gif');
 }
@@ -730,7 +728,7 @@ section {
 
 .color-container:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    transform: translateY(-15px); /* Adjusted to lift a little */
+    transform: translateY(-15px);
 }
 
 #projects {
@@ -846,7 +844,7 @@ nav.project1 a.active {
     margin: 0rem auto;
 }
 
-#contact .section__text__p1{
+#contact .section__text__p1 {
     margin-top: -7rem;
 }
 
