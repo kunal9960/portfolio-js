@@ -2,7 +2,7 @@
   #about {
       width: 950px;
       margin: 0 auto;
-      height: 700px;
+      height: 650px;
       margin-top: -3rem;
       margin-bottom: -2rem;
   }
@@ -29,7 +29,7 @@
     margin-top: -17rem;
  }
   .arrow {
-    margin-bottom: 8rem;
+    margin-bottom: 0rem;
  }
   .gif-icon {
     display: block;
