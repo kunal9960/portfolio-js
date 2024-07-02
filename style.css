@@ -724,6 +724,15 @@ section {
 
 /* PROJECTS SECTION */
 
+.color-container {
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.color-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-15px); /* Adjusted to lift a little */
+}
+
 #projects {
     position: relative;
 }
@@ -751,6 +760,7 @@ section {
     cursor: default;
     margin: 1rem;
     color: black;
+    margin-bottom: 0.8rem;
 }
 
 .project-btn {
