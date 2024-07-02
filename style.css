@@ -379,7 +379,10 @@ section {
 
 #about p.section__text__p1 {
     margin-top: 0rem;
+}
 
+#about p {
+  font-size: 15.5px;
 }
 
 #about {
