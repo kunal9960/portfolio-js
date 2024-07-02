@@ -819,6 +819,7 @@ nav.project1 a.active {
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     text-decoration-color: #ff6666;
+    color: black;
 }
 
 @keyframes fadeUp {
