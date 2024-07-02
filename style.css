@@ -428,6 +428,12 @@ section {
     right: -5rem;
     bottom: 2.5rem;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Using pseudo-element for hover effect */
+.arrow:hover {
+    content: url('./assets/arrow.gif');
 }
 
 .arrow1 {
@@ -437,11 +443,19 @@ section {
     cursor: pointer;
 }
 
+.arrow1:hover {
+    content: url('./assets/arrow.gif');
+}
+
 .arrow2 {
     position: absolute;
     right: -5rem;
     bottom: -3rem;
     cursor: pointer;
+}
+
+.arrow2:hover {
+    content: url('./assets/arrow.gif');
 }
 
 .details-container {
