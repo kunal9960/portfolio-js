@@ -2,7 +2,7 @@
   #about {
       width: 950px;
       margin: 0 auto;
-      height: 800px;
+      height: auto;
       margin-top: -3rem;
   }
   #about .title {
@@ -11,7 +11,7 @@
   #experience {
       width: 950px;
       margin: 0 auto;
-      margin-top: -15rem;
+      margin-top: -25rem;
   }
   #contact {
       width: 950px;
