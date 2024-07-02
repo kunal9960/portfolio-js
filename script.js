@@ -108,8 +108,8 @@ function showProjects(category) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    showProjects('python');
-    const pythonLink = document.querySelector('.project1 a[href="#projects"][onclick="showProjects(\'python\')"]');
+    showProjects('data-analysis');
+    const pythonLink = document.querySelector('.project1 a[href="#projects"][onclick="showProjects(\'data-analysis\')"]');
     if (pythonLink) {
         pythonLink.classList.add('active');
     }
