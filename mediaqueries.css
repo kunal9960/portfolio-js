@@ -55,6 +55,9 @@
     height: fit-content;
     margin-bottom: 5rem;
   }
+  #experience{
+    margin-top: 6rem;
+  }
   .gif-icon {
     display: block;
     margin: 0rem auto; /* Center horizontally */
