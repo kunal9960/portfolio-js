@@ -499,7 +499,7 @@ section {
 .scroller[data-animated="true"] .scroller__inner {
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, 40s)
+  animation: scroll var(--_animation-duration, 60s)
     var(--_animation-direction, forwards) linear infinite;
 }
 
@@ -512,7 +512,7 @@ section {
 }
 
 .scroller[data-speed="fast"] {
-  --_animation-duration: 50s;
+  --_animation-duration: 75s;
 }
 
 .scroller[data-speed="slow"] {
@@ -623,7 +623,7 @@ section {
     cursor: default;
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 50%;
     max-width: 500px;
     border: 2.5px solid rgb(163, 163, 163);
     border-radius: 34px;
