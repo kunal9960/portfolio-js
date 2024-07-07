@@ -619,10 +619,10 @@ section {
     cursor: default;
     display: flex;
     flex-direction: row;
-    width: 40%;
+    width: 39%;
     max-width: 500px;
     border: 2.5px solid rgb(163, 163, 163);
-    border-radius: 20px;
+    border-radius: 34px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
@@ -662,6 +662,8 @@ section {
     width: 136px;
     height: 136px;
     object-fit: contain;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 
 .company-details {
@@ -921,7 +923,6 @@ nav.project1 a.active {
         width: 80%;
     }
 }
-
 
 /* FOOTER SECTION */
 
