@@ -619,7 +619,7 @@ section {
     cursor: default;
     display: flex;
     flex-direction: row;
-    width: 39%;
+    width: 40%;
     max-width: 500px;
     border: 2.5px solid rgb(163, 163, 163);
     border-radius: 34px;
