@@ -637,6 +637,11 @@ section {
     margin-bottom: 1rem;
 }
 
+.btn-placeholder {
+        display: flex;
+        width: 8rem; /* Adjust width to match the button */
+    }
+
 .work p.title2 {
     text-decoration: underline;
     text-underline-offset: 1rem;
