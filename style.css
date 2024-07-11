@@ -638,9 +638,9 @@ section {
 }
 
 .btn-placeholder {
-        display: flex;
-        width: 8rem; /* Adjust width to match the button */
-    }
+    display: flex;
+    width: 8rem;
+}
 
 .work p.title2 {
     text-decoration: underline;
@@ -778,6 +778,7 @@ section {
     margin: 1rem;
     color: black;
     margin-bottom: 0.8rem;
+    font-size: 1.47rem;
 }
 
 .project-btn {
