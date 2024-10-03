@@ -623,14 +623,14 @@ section {
     cursor: default;
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 35%;
     max-width: 500px;
     border: 2.5px solid rgb(163, 163, 163);
     border-radius: 34px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    padding: 10px;
+    padding: 12px;
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
     transform: translateZ(0);
     background: rgb(250, 250, 250);
@@ -646,7 +646,7 @@ section {
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: #ff6666;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -662,14 +662,14 @@ section {
 }
 
 .company-logo {
-    margin-right: 1.2rem;
+    margin-right: 1.0rem;
     margin-left: 0.5rem;
 }
 
 .company-logo img {
     margin-top: 0.3rem;
-    width: 136px;
-    height: 136px;
+    width: 120px;
+    height: 120px;
     object-fit: contain;
     border-radius: 20px;
     border: 2px solid black;
@@ -704,13 +704,6 @@ section {
     font-size: 13px;
     margin-top: 5px;
     color: #666;
-    margin-bottom: -22px;
-}
-
-.links {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1.8rem;
 }
 
 .links a {
